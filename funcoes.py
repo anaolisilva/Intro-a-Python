@@ -14,7 +14,7 @@ ENUNCIADO:
     
 ------------------------------------------------------------------------------
 
-    Nome: Ana Clara Oliveira Silva
+    Nome: Ana Oliveira Silva
     Data: 09/06/21
 
 """
