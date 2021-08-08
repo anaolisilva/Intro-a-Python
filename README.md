@@ -41,6 +41,22 @@
 		<strong>- exponencial()</strong> - deve retornar um número inteiro, a partir da seguinte explicação:
 		<br> <img height="100px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/exponencial.png?raw=true" alt="explicação exponencial"><br>
 		<img height="20px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/exponencial02.png?raw=true" alt="no dia d o número de infectados é nd = (1 + e × p) elevado a d, tudo * n0"><br>
+		<strong>- logistica()</strong> - deve retornar um número inteiro, a partir da seguinte explicação: <br>
+		A função logistica leva em consideração o fato de que na prática funções exponenciais não são encontradas, e coloca um limite de número n de indivíduos na população.<br>
+		<img height="20px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/logistica.png?raw=true" alt="no dia d o número de infectados é nd=(1+ e × p × (1−(nd−1)/n)) × n de d-1">
+	</li>
+	<br>
+	<li> <a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/area.py" target="_blank">EP07</a> - Implementar 2 funções:<br>
+		<strong>- area_por_retangulos(f, a, b, k)</strong> - Fazer uma aproximação da área de um gráfico de função a partir do método dos retângulos. Recebe uma função f, dois números a e b e um inteiro k. Retorna uma aproximação da área sob a função f no intervalo [a,b] usando k retângulos. <br>
+		<img height="140px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/aproxretangulos.gif?raw=true" alt="Imagem ilustrando o método de aproximação por retângulos"> <br>
+		<strong>- area_aproximada(f, a, b, eps=EPSILON)</strong> - Função que determina melhor k para que área aproximada tenha o menor erro relativo. Recebe uma função f, dois números a, b, eps. Retorna um inteiro k e uma aproximação da área sob a função f no intervalo [a,b] usando k retângulo, de modo que o erro relativo seja menor que eps.
+	</li>
+	<br>
+	<li>
+		<a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/amigos.py" target="_blank">EP08</a> - Implementar 2 funções:<br>
+		<strong>- circular(amigo_de) </strong> - recebe uma lista amigo_de[] e retorna True se a lista é circular e retorna False em caso contrário. Uma lista é circular se permite que os presentes sejam distribuídos em um único ciclo.<br>
+		<img height="110px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/listacircular.png?raw=true" alt="Imagem ilustrando lista circular x não-circular"> <br>
+		<strong>- experimento(N, T, debug=False) </strong> - recebe dois inteiros, N e T, e um booleano debug. A função realiza T sorteios de listas aleatórias de tamanho N (número de pessoas no grupo) contendo os inteiros 0, 1, …, N-1. A função retorna uma estimativa para probabilidade p(N) de uma lista de tamanho N ser circular. Essa estimativa é razão S/T entre o número observado de listas circulares e o número T de listas sorteadas. 
 	</li>
 
 </ul>
