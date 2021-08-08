@@ -24,6 +24,61 @@ ENUNCIADO:
 import random 
 
 #####################################################################
+def circular(amigo_de):
+    ''' (list) -> bool 
+    RECEBE uma lista amigo_de (de "amigos secretos")
+    RETORNA True se a lista for circular e False em caso contrário.
+    '''
+    # modifique o código abaixo para conter a sua solução.
+    
+    i = 0
+    cont = 0
+    listaC = True
+    
+    while (cont < len(amigo_de) and listaC):
+        i = amigo_de[i]
+        cont += 1
+        
+        if amigo_de[i] == 0 and cont != (len(amigo_de) - 1):
+            listaC = False
+        
+    
+    return listaC
+
+###################################################################
+def experimento(N, T, debug=False):
+    ''' (int, int) -> float
+    RECEBE um inteiro N > 0, um inteiro T > 0 e um booleano debug.
+    RETORNA a probabilidade de uma lista de "amigo secretos" com
+        N participantes ser circular.
+
+    Esta probabilidade deve ser calculada a partir de T sorteios 
+    de listas de tamanho N, e calculando a frequência das listas 
+    circulares.
+
+    Se a opção debug é True a função deve imprimir todas as 
+    listas sortedas que forem circulares, como mostrado no
+    enunciado.
+    '''
+    # modifique o código abaixo para conter a sua solução.
+    
+    i = 0
+    s = 0
+    
+    while (i < T):
+        lista = sorteie_amigos(N)
+        if (circular(lista)):
+            s += 1
+            if (debug):
+                print (f"{s} : {lista}")
+        i += 1
+    
+    p = s / T
+    
+    
+    return p
+
+#####################################################################
 def main():
     '''
     Essa função auxilia no teste das funções pedidas para o EP08.
@@ -87,60 +142,6 @@ def sorteie_amigos( N ):
     
     return amigos  
 
-######################################################################
-def circular(amigo_de):
-    ''' (list) -> bool 
-    RECEBE uma lista amigo_de (de "amigos secretos")
-    RETORNA True se a lista for circular e False em caso contrário.
-    '''
-    # modifique o código abaixo para conter a sua solução.
-    
-    i = 0
-    cont = 0
-    listaC = True
-    
-    while (cont < len(amigo_de) and listaC):
-        i = amigo_de[i]
-        cont += 1
-        
-        if amigo_de[i] == 0 and cont != (len(amigo_de) - 1):
-            listaC = False
-        
-    
-    return listaC
-
-###################################################################
-def experimento(N, T, debug=False):
-    ''' (int, int) -> float
-    RECEBE um inteiro N > 0, um inteiro T > 0 e um booleano debug.
-    RETORNA a probabilidade de uma lista de "amigo secretos" com
-        N participantes ser circular.
-
-    Esta probabilidade deve ser calculada a partir de T sorteios 
-    de listas de tamanho N, e calculando a frequência das listas 
-    circulares.
-
-    Se a opção debug é True a função deve imprimir todas as 
-    listas sortedas que forem circulares, como mostrado no
-    enunciado.
-    '''
-    # modifique o código abaixo para conter a sua solução.
-    
-    i = 0
-    s = 0
-    
-    while (i < T):
-        lista = sorteie_amigos(N)
-        if (circular(lista)):
-            s += 1
-            if (debug):
-                print (f"{s} : {lista}")
-        i += 1
-    
-    p = s / T
-    
-    
-    return p
 
 
 #=====================================================================
