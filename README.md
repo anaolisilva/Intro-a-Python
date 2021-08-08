@@ -43,7 +43,7 @@
 		<img height="20px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/exponencial02.png?raw=true" alt="no dia d o número de infectados é nd = (1 + e × p) elevado a d, tudo * n0"><br>
 		<strong>- logistica()</strong> - deve retornar um número inteiro, a partir da seguinte explicação: <br>
 		A função logistica leva em consideração o fato de que na prática funções exponenciais não são encontradas, e coloca um limite de número n de indivíduos na população.<br>
-		<img height="20px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/logistica.png?raw=true" alt="no dia d o número de infectados é nd=(1+ e × p × (1−(nd−1)/n)) × n de d-1">
+		<img height="30px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/logistica.png?raw=true" alt="no dia d o número de infectados é nd=(1+ e × p × (1−(nd−1)/n)) × n de d-1">
 	</li>
 	<br>
 	<li> <a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/area.py" target="_blank">EP07</a> - Implementar 2 funções:<br>
@@ -53,11 +53,18 @@
 	</li>
 	<br>
 	<li>
-		<a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/amigos.py" target="_blank">EP08</a> - Implementar 2 funções:<br>
+		<a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/amigos.py" target="_blank">EP08</a> - Com o exemplo de amigo secreto em mente, implementar 2 funções:<br>
 		<strong>- circular(amigo_de) </strong> - recebe uma lista amigo_de[] e retorna True se a lista é circular e retorna False em caso contrário. Uma lista é circular se permite que os presentes sejam distribuídos em um único ciclo.<br>
 		<img height="110px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/listacircular.png?raw=true" alt="Imagem ilustrando lista circular x não-circular"> <br>
 		<strong>- experimento(N, T, debug=False) </strong> - recebe dois inteiros, N e T, e um booleano debug. A função realiza T sorteios de listas aleatórias de tamanho N (número de pessoas no grupo) contendo os inteiros 0, 1, …, N-1. A função retorna uma estimativa para probabilidade p(N) de uma lista de tamanho N ser circular. Essa estimativa é razão S/T entre o número observado de listas circulares e o número T de listas sorteadas. 
 	</li>
+	<br>
+	<li>
+		<a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/altruistas.py" target="_blank">EP09</a> - Ainda com o exemplo de amigo secreto em mente, implementar 3 funções:<br>
+		<strong>- no_egoistas(amigo_de)</strong> - recebe uma lista amigo_de e retorna o número de índices egoístas na lista (onde lista[i] = i). <br>
+		<strong>- experimento(N, T) </strong> - recebe dois inteiros, N e T. A função realiza T sorteios de listas aleatórias de tamanho N contendo os inteiros 0, 1, …, N-1. A função retorna uma estimativa para probabilidade q(N) de uma lista de tamanho N não possuir índices egoístas. Esta estimativa será a razão S/T entre o número observado de listas sem índices egoístas e o número T de listas sorteadas. <br>
+		<strong>- altruistas(amigo_de)</strong> - recebe uma lista amigo_de com índices egoístas e transforma essa lista em uma lista sem índices egoístas. Essa função altera a lista recebida e retorna None.
+		</li>
 
 </ul>
 
