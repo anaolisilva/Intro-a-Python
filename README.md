@@ -18,9 +18,10 @@
 
   <li><a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/ep01.py" target="_blank">EP01</a> e <a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/tipos.py" target="_blank">EP02</a> - trabalhar conceitos simples, como variáveis, seus valores e tipos e expressões.</li>
 	<br>
-  <li><a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/tipos.py" target="_blank">EP03</a> - Escrever um programa que leia uma cordenada (x,y) e imprima a cor que a coordenada atinge, considerando o mapa abaixo:
-        <br> <img align="left" height="250px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/carinhaimg.png?raw=true" alt="carinha"><br>
-        <p><em>Objetivo: Praticar o pensamento aplicado a resolução de problemas computacionais por meio do pensamentos lógico e aritmético e pensamentos alternativos.</em></p> <br><br><br><br><br><br>
+	<img align="left" height="250px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/carinhaimg.png?raw=true" alt="carinha"> <br><br>
+  <li align="center"><a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/tipos.py" target="_blank">EP03</a> - Escrever um programa que leia uma cordenada (x,y) e imprima a cor que a coordenada atinge, considerando o mapa ao lado:
+        <br> <br>
+        <p><em>Objetivo: Praticar o pensamento aplicado a resolução de problemas computacionais por meio do pensamentos lógico e aritmético e pensamentos alternativos.</em></p> <br><br><br>
   </li>
 	<br>
   <li><a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/digitos.py" target="_blank">EP04</a> - Escrever um programa que lê um número n e imprime seus dígitos verificadores de acordo com a lógica (semelhante à lógica dos DVs do CPF):<br>
