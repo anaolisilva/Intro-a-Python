@@ -8,9 +8,14 @@
 """
 ------------------------------------------------------------------------------
     ENUNCIADO:
-        Escreva um programa que leia 2 números reais que correspondem às coordenadas x e y de um ponto e imprima azul se o ponto (x, y) for azul e branco se o ponto (x, y) for branco
-        Os pontos nos contornos em linhas sólidas entre regiões azuladas e brancas são azuis. Já, os pontos nos contornos em linhas tracejadas são brancos.
-        [A imagem está presente no repositório com o nome carinhaimg.png e referenciada no README]
+        "Escreva um programa que leia 2 números reais que correspondem às 
+        coordenadas x e y de um ponto e imprima azul se o ponto (x, y) for azul 
+        e branco se o ponto (x, y) for branco
+        Os pontos nos contornos em linhas sólidas entre regiões azuladas e 
+        brancas são azuis. Já, os pontos nos contornos em linhas tracejadas 
+        são brancos."
+        [A imagem está presente no repositório com o nome carinhaimg.png 
+         e referenciada no README]
 ------------------------------------------------------------------------------
 
     Nome: Ana Clara Oliveira Silva

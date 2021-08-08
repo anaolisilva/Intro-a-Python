@@ -7,8 +7,14 @@
      
 '''
     --------------------------------------------------------------------------
-    ENUNCIADO: Vamos trabalhar alguns conceitos que vimos nas primeiras reuniões tais como variáveis, valores e seus tipos e expressões. Este EP utiliza atribuições, a função de entrada input(), de saída print(), as função de conversão de valores int() e float().
-    Faça um programa que leia uma string s, um número inteiro i e um número real r e imprima, os resultados de algumas expressões envolvendo s, i e r de maneira idêntica a dos exemplos a seguir.
+    ENUNCIADO: "Vamos trabalhar alguns conceitos que vimos nas primeiras reuniões 
+    tais como variáveis, valores e seus tipos e expressões. Este EP utiliza atribuições, 
+    a função de entrada input(), de saída print(), as função de conversão de 
+    valores int() e float().
+    Faça um programa que leia uma string s, um número inteiro i e um número 
+    real r e imprima, os resultados de algumas expressões envolvendo s, i e r 
+    de maneira idêntica a dos exemplos a seguir."
+    
     Exemplo:
     
     Digite uma string s: 2+13  

@@ -8,12 +8,14 @@
 '''
 ------------------------------------------------------------------------------
     ENUNCIADO:
-        Faça um programa que leia:
+        "Faça um programa que leia:
 
         uma string s,
         um número inteiro i e
         um número real x
-        e imprima as mensagens e os resultados das expressões como mostrado nos exemplos a seguir. 
+        
+        e imprima as mensagens e os resultados das expressões como mostrado 
+        nos exemplos a seguir." 
 
         Exemplo:
             
