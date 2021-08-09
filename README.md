@@ -64,8 +64,30 @@
 		<strong>- no_egoistas(amigo_de)</strong> - recebe uma lista amigo_de e retorna o número de índices egoístas na lista (onde lista[i] = i). <br>
 		<strong>- experimento(N, T) </strong> - recebe dois inteiros, N e T. A função realiza T sorteios de listas aleatórias de tamanho N contendo os inteiros 0, 1, …, N-1. A função retorna uma estimativa para probabilidade q(N) de uma lista de tamanho N não possuir índices egoístas. Esta estimativa será a razão S/T entre o número observado de listas sem índices egoístas e o número T de listas sorteadas. <br>
 		<strong>- altruistas(amigo_de)</strong> - recebe uma lista amigo_de com índices egoístas e transforma essa lista em uma lista sem índices egoístas. Essa função altera a lista recebida e retorna None.
-		</li>
-
+	</li>
+	<br>
+	<li>
+		<a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/EPs/alinhamento.py" target="_blank">EP10</a> - Como forma de nos iniciarmos no biopython, exercício de alinhamento de sequências de DNA. Implementar duas funções:<br>
+		<img align="left" height="140px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/biopython.png?raw=true" alt="Imagem com alinhamentos de sequências de DNA e biopython">
+		<strong> - gera_gaps(dna)</strong> - Recebe uma string `dna` representando uma fita de DNA com os símbolos 'A', 'T', 'C', 'G' e '_' (GAP). Retorna uma lista com todas as variações de dna com um símbolo GAP a mais e sem repetições.<br>
+		<strong> - pontuacao(s, t, ga, la, ldif, lgap)</strong> - Recebe duas strings `s` e `t` de mesmo tamanho com zero ou mais gaps representando fitas de DNA; e quatro inteiros `ga`, `la`, `ldif`, `lgap`. Retorna a pontuação do alinhamento entre `s` e `t` calculada de acordo com as regras definidas (especificadas no arquivo).<br>
+	</li>
+	<br>
+	<li>
+		<a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/EPs/alin_otimo.py" target="_blank">EP11</a> - Continuando a proposta do EP10. Implementar duas funções, utilizando também as anteriormente desenvolvidas: <br>
+		<strong>- gera_n_gaps( dna, n )</strong> - Recebe uma string `dna` representando uma fita de DNA com os símbolos 'A', 'T', 'C', 'G' e '_' (gap), e um número inteiro positivo `n`. Retorna uma lista sem repetições com todas as variações de `dna` com até `n` gaps extras.<br>
+		<strong>- pontuacao_max(s, t, ga, la, ldif, lgap, n)</strong> -Recebe duas strings `s` e `t` de mesmo comprimento representando fitas de DNA, quatro números inteiros `ga`, `la`, `ldif` e `lgap` como no EP10 e mais um número inteiro positivo `n`. Retorna a maior pontuação entre pares de variações de s e t que têm o mesmo comprimento ou até `n` gaps extras, e uma lista com todos os pares de variações de s e t que têm  esta maior pontuação; cada par é uma lista com duas variações.<br>
+	</li>
+	<br>
+	<li>
+		<a href="https://github.com/anaolisilva/Intro-a-Python/blob/main/EPs/escritora.py" target="_blank">EP12</a> - Trabalhar com dicionários de sucessores para 'imitar' a escrita de Machado de Assis. Implementar três funções:<br>
+		<strong>- insira_espacos(txt)</strong> -  Recebe uma string `txt`. Retorna a string resultante da inserção de um espaço antes e depois de cada sinal em pontuação que estiver em texto.<br>
+		<strong>- dicio_sucessores(lst)</strong> - Recebe uma lista `lst`. Retorna um dicionário em que as chaves são os itens que ocorrem em lst e o valor associado a cada chave é a lista dos itens que ocorrem imediatamente após a chave na lista lst.<br>
+		<strong>- gere_frase(p_inicial, dicio)</strong> - Recebe uma palavra `p_inicial` e um dicionário `dicio` criado a partir das funções anteriores. Retorna uma string representando uma frase. A frase retornada deve começar com a string p_inicial e ser gerada  segundo o processo aleatório descrito no enunciado.<br>
+	</li>
 </ul>
+
+
+
 
 
