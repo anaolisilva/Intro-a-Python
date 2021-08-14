@@ -39,9 +39,7 @@
 		<strong>- primo()</strong> - recebe um número inteiro p e define se p é primo.<br>
 		<strong>- goldbach()</strong> - recebe um inteiro positivo n e define se n é a soma de dois números primos.<br>
 		<strong>- exponencial()</strong> - deve retornar um número inteiro, a partir da seguinte explicação:
-		<br> <img height="100px" src="https://github.com/anaolisilva/Intro-a-Python/blob/
-			
-			/Recursos/exponencial.png?raw=true" alt="explicação exponencial"><br>
+		<br> <img height="100px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/exponencial.png?raw=true" alt="explicação exponencial"><br>
 		<img height="20px" src="https://github.com/anaolisilva/Intro-a-Python/blob/main/Recursos/exponencial02.png?raw=true" alt="no dia d o número de infectados é nd = (1 + e × p) elevado a d, tudo * n0"><br>
 		<strong>- logistica()</strong> - deve retornar um número inteiro, a partir da seguinte explicação: <br>
 		A função logistica leva em consideração o fato de que na prática funções exponenciais não são encontradas, e coloca um limite de número n de indivíduos na população.<br>
